@@ -16,6 +16,15 @@
         Extra space for prev.
         Code becomes more complex.
 */
+class Node {
+    int data; // datatype can we anything;
+    Node next; // it has reference of self type; Linked List is an exmaple of self referential structure;
+    Node prev; // !for doubly linked list!
+
+    Node(int x){
+        data = x;
+    }
+}
 
 // Main class:
 public class _2_doubly {
