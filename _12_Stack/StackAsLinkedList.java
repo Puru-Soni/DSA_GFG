@@ -50,7 +50,7 @@ class myStack {
     }
 
     int peek() {
-        return head.data;
+        return head == null ? 0 : head.data;
     }
 
     void show(){
@@ -76,9 +76,8 @@ public class StackAsLinkedList {
         stk.show();
 
         System.out.println(stk.peek());
+        System.out.println(stk.pop());
 
-        int x = stk.pop();
-        System.out.println(x);
         stk.show();
     }
 
